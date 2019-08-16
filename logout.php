@@ -3,10 +3,10 @@ session_start();
 if(isset($_SESSION['username']))
 {
     unset($_SESSION['username']);
-    header('location: home.php');
+    header('location: index.php');
 }
 else
 {
-    header('location: home.php');
+    header('location: index.php');
 }
 ?>
